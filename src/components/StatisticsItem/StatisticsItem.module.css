@@ -1,0 +1,31 @@
+.row {
+  border-bottom: 1px solid rgb(160 160 160);
+  width: 100%;
+  /* padding: 0 16px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+  .total {
+    text-align: right;
+  }
+  .name {
+    display: flex;
+    gap: 16px;
+    justify-content: start;
+  }
+}
+
+td {
+  margin: 0;
+}
+.color {
+  text-align: left;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+}
+.name {
+  text-align: left;
+}

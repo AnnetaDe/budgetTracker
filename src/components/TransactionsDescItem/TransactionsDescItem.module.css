@@ -1,0 +1,76 @@
+.t_row:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.t_row {
+  height: 56px;
+}
+
+.value {
+  padding: 13px 10px 13px 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--white);
+}
+@media only screen and (min-width: 1280px) {
+  .value {
+    padding: 16px 10px 16px 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--white);
+  }
+}
+
+.type {
+  display: block;
+  margin-left: 18px;
+}
+.value_end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+}
+.value_type {
+  display: block;
+  margin-left: 16px;
+}
+
+.value_strong {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+}
+.minus {
+  color: var(--dashboard-text);
+  padding-left: 20px;
+}
+.plus {
+  color: var(--yellow);
+  padding-left: 20px;
+}
+
+.btn_delete {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 18px;
+  padding: 4px 12px;
+  width: 69px;
+  box-shadow: 1px 9px 15px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+    167deg,
+    #ffc727 0%,
+    #9e40ba 61.46%,
+    #7000ff 90.54%
+  );
+}
+.btn_edit {
+  background-color: transparent;
+  color: var(--white);
+}
